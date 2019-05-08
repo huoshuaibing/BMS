@@ -111,12 +111,12 @@ func showbook(){
 
 func main(){
 	for {
-		showmenu()
-		var option int
-		fmt.Scanln(&option)
-		switch option {
-		case 1:
-			addbook()
+	    showmenu()
+	    var option int
+	    fmt.Scanln(&option)
+	    switch option {
+	    case 1:
+		addbook()
 	    case 2:
 	    	updatebook()
 	    case 3:
